@@ -1,0 +1,10 @@
+metric,model,observed,verdict,note
+"county share of DC revenue / county budget, year 10",4.8%,"Douglas 3-8% (avg 5%, S23)",inside,county government share (0.331) of net DC revenue 61.5 $M/yr over $428M budget
+"county share of DC revenue / county budget, year 20",7.8%,"Douglas 3-8% (avg 5%, S23)",inside,county government share (0.331) of net DC revenue 100.3 $M/yr over $428M budget
+"net DC revenue / county + school budgets, year 20",13.3%,no comparable county figure,n/a,"100.3 $M/yr over $753M; Sail calibration target is about $100M/yr (S5, S7)"
+"DC share of county water demand, year 20 (closed-loop)",2.1%,Newton (Meta) about 10% (S24),below,0.30 MGD of 14.5 MGD
+"DC share of county water demand, year 20 (evaporative)",37.9%,Newton (Meta) about 10% (S24),above,8.65 MGD of 22.8 MGD
+water per energized MW (MGD/MW),closed 0.00033 / evap 0.00962,"LBNL fleet average 0.00228 (S21, at full load)",bracketed,"0.36 L/kWh x 24,000 kWh/day per MW; Sail closed-loop is a low-water design, the 2025 plan was evaporative"
+"residential bill change, year 20 (DC pays (base))",2 $/hh/yr,no county-level data; GA Power June 2026 change about -$50/yr (S19),n/a,rate index 1.0012; scale check only
+"residential bill change, year 20 (ratepayers pay)",25 $/hh/yr,no county-level data; GA Power June 2026 change about -$50/yr (S19),n/a,rate index 1.0144; scale check only
+"housing cost index excess vs no-DC baseline, year 20",1.7%,no local study found (sources.md),n/a,driven by ASSUMPTION k_prox and hou_elast; covered by sensitivity

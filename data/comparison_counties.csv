@@ -1,0 +1,8 @@
+county,metric,value,unit,year,source_id,note
+Douglas GA,data center share of county general fund revenue,0.05,fraction,2023-2025 avg,S23,labeled unverified by source; 3% (2023) 4% (2024) 8% (2025)
+Douglas GA,data center tax revenue,20.1435,$ million cumulative 2023-2025,2023-2025,S23,of $428.9M general fund
+Newton GA (Stanton Springs),share of county daily water used by Meta data center,0.10,fraction,2025,S24,per water authority director quoted by news
+Newton GA (Stanton Springs),typical data center water use,500000,gal/day,2025,S24,generic estimate in article not Meta-specific
+Coweta GA (Sail projected),tax revenue per MW at full build-out,0.1115,$ million per MW per year,2025,S7,EIG model; gross before abatement; county plus schools
+Coweta GA (Sail projected),Sail water per MW closed-loop,0.000330,MGD per MW,2026,S1-S3,300000 gal/day / 910 MW
+Coweta GA (Sail DRI 2025),Sail water per MW evaporative design,0.00962,MGD per MW,2025,S4,9 MGD / 936 MW

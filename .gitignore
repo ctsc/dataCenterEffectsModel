@@ -1,0 +1,16 @@
+# Private course documents (kept locally in docs/, not published)
+docs/
+notes/
+
+# Deliverable build scripts — only the outputs (pdf/docx/pptx) are committed
+report/build_report.py
+slides/build_slides.py
+slides/render/
+
+# Generated model archives
+model/archive/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

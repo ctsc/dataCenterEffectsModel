@@ -1,0 +1,11 @@
+test,expectation,result,detail
+zero build-out (size-mw = 0),"no energized load, no fiscal impact, no net benefit, opposition stays at O0",PASS,E=0 F=5.39e-11 nb=3.53e-09 O=0.4000
+10x build-out (9000 MW),"stocks finite and non-negative, E <= G <= C <= size, opposition in [0,1)",PASS,E=8961 G=8980 C=9000 O=0.033
+near-zero water capacity (w0 = 0.5 MGD),"stress very high but finite, supply expands toward the permit cap, no NaN",PASS,stress=0.86 W=16.77 O=0.414
+abatement 0%,net revenue equals gross rev_per_MW * E at every step,PASS,max |rev-net - gross| = 1.42e-14
+abatement 100% (never fades),net data center revenue is ~0 for all 20 years,PASS,max rev-net = 2.01e-06 $M/yr
+opposition driven to 0,O stays at or near 0 and permitting speeds up to at most m_max,PASS,O_end=0.000 m_max_seen=1.250
+opposition driven to 1,"O stays below 1, permitting factor reaches 0 and build-out stalls (contracted << 900 MW)",PASS,O_max=0.9999 m_min=0.000 C_end=22
+shortest delays (one time step),"stable (no negative or oscillating stocks), E tracks C within a few steps",PASS,"E_end=900.0, E monotone"
+very long delays (1000 years),"almost nothing energized, revenue ~0",PASS,E_end=0.132 rev=0.0147
+zero population growth and zero jobs,population stays at P0 (housing excess only from proximity premium),PASS,P_end=160240.00 P0=160240

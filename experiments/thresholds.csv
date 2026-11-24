@@ -1,0 +1,24 @@
+kind,condition,value,note
+size (MW),base policy,,no crossing 50-6050 MW; sign positive throughout
+size (MW),evaporative,1457.868158423311,"net benefit positive below, negative above"
+size (MW),evaporative + drought,1187.8915624875667,"net benefit positive below, negative above"
+size (MW),ratepayers pay,3686.771585348669,"net benefit positive below, negative above"
+size (MW),ratepayers pay + evaporative,1256.6004130851666,"net benefit positive below, negative above"
+size (MW),"worst (evap, ratepayer, 100% abatement, drought)",529.9742449522493,"net benefit positive below, negative above"
+size (MW),worst without drought,1062.5653628891746,"net benefit positive below, negative above"
+parameter ql_cost,"900 MW, base policy",2024.2939025769797,base value 1500 (ASSUMPTION (value judgement; not obtainable from public data)); tested range 0-3000
+parameter ql_cost,"3500 MW, base policy",2089.8105603121353,base value 1500 (ASSUMPTION (value judgement; not obtainable from public data)); tested range 0-3000
+parameter k_prox,"900 MW, base policy",0.03548930820466374,base value 0.02 (ASSUMPTION); tested range 0-0.1
+parameter k_prox,"3500 MW, base policy",0.03498210337160724,base value 0.02 (ASSUMPTION); tested range 0-0.1
+parameter O0,"900 MW, base policy",0.5474166199233285,base value 0.4 (ASSUMPTION); tested range 0.2-0.6
+parameter O0,"3500 MW, base policy",0.5518806256968353,base value 0.4 (ASSUMPTION); tested range 0.2-0.6
+parameter svc_cost_per_MW,"900 MW, base policy",0.019462588790756814,base value 0.005 (ASSUMPTION (S7 implies 0.00085)); tested range 0.00085-0.02
+parameter svc_cost_per_MW,"3500 MW, base policy",0.021048058893329086,base value 0.005 (ASSUMPTION (S7 implies 0.00085)); tested range 0.00085-0.02
+parameter rev_per_MW,"900 MW, base policy",0.09333154947570822,base value 0.1115 (S7 derived (analysis/derive_eig.py)); tested range 0.08-0.14
+parameter rev_per_MW,"3500 MW, base policy",0.09456108861510427,base value 0.1115 (S7 derived (analysis/derive_eig.py)); tested range 0.08-0.14
+parameter a_r,"900 MW, base policy",,"no crossing in [0, 30]"
+parameter a_r,"3500 MW, base policy",,"no crossing in [0, 30]"
+parameter share_ratepayer_pays,"900 MW, payer=ratepayer",,"no crossing in [0, 1]"
+parameter share_ratepayer_pays,"3500 MW, payer=ratepayer",0.6225898627760696,base value 0.6
+parameter wi_evap,"900 MW, cooling=evap",0.015245186939132356,base value 0.00962
+parameter wi_evap,"3500 MW, cooling=evap",0.004262412817574191,base value 0.00962

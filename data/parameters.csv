@@ -1,0 +1,63 @@
+name,value,unit,source,low,high,description
+dt,0.125,year,proposal,0.0625,0.5,integration step (Euler); time-step test varies it
+horizon,20,year,proposal,20,20,simulation length (model year 0 = FY2026-27)
+E0,0,MW,proposal,0,0,initial energized data center capacity
+G0,0,MW,proposal,0,0,initial grid capacity added for data centers
+C0,0,MW,ASSUMPTION,0,0,initial contracted load (supporting state; no load contracted at start)
+W0,21,MGD,S13 + ASSUMPTION,15,27,initial water supply capacity; set to new Chattahoochee intake design capacity (treatment capacity not found)
+F0,0,$ million,proposal,0,0,initial cumulative net fiscal impact
+P0,160240,people,S15,158233,162000,initial population (Census 2025 estimate)
+O0,0.40,fraction 0-1,ASSUMPTION,0.2,0.6,initial community opposition index (3-2 commission vote; petition about 14000 signers; no poll found)
+g_pop,0.0127,1/year,S15 (160240/158233-1),0.005,0.025,baseline population growth rate with no data center
+water_base0,11,MGD,ASSUMPTION,8,14,initial baseline county water demand (current authority demand not found)
+water_cap,27,MGD,S13,21,27,permitted Chattahoochee withdrawal; ceiling on supply expansion
+hh_size,2.8,people per household,ASSUMPTION (ACS-like),2.6,3.0,persons per household
+size_sail,900,MW,proposal / S3 (910) / S7 (972),900,972,Sail campus energized capacity at full build-out
+size_bridgeport,1500,MW,S11,750,1500,Bridgeport campus
+size_pegasus,400,MW,ASSUMPTION (S12 unknown),200,800,Project Pegasus (Coweta) campus
+size_peach,700,MW,S10,350,700,Project Peach campus
+t_sign,5,year,ASSUMPTION calibrated to S7 (last building online in year 9),3,15,contracting period: time over which load is signed at full permitting speed
+D_grid,2,year,ASSUMPTION calibrated to S7 (90% energized by year 9),1,6,delay for grid capacity to follow contracted load
+tau_energize,1,year,ASSUMPTION,0.5,2,delay for energized load to follow available grid capacity
+cost_per_MW,1.2,$ million per MW,ASSUMPTION,0.8,2.0,capital cost of new generation + transmission per MW of firm load
+carry_charge,0.10,1/year,ASSUMPTION,0.08,0.12,annual revenue requirement per $ of capital
+resid_rev_base,4500,$ million per year,ASSUMPTION,3500,5500,Georgia Power residential revenue base over which socialized costs are spread
+share_dc_pays,0.05,fraction,ASSUMPTION (S18 rule),0,0.2,share of grid cost reaching ratepayers when data centers pay
+share_ratepayer_pays,0.60,fraction,ASSUMPTION,0.3,1.0,share of grid cost reaching ratepayers when upgrades are socialized
+elec_price,15.5,cents per kWh,S20,14,17,baseline residential electricity price
+hh_kwh,11000,kWh per household per year,ASSUMPTION,9000,13000,residential consumption per household
+wi_closed,0.000330,MGD per MW,S1-S3 (300000 gal/day / 910 MW),0.00025,0.0005,water supply demand per energized MW with closed-loop air cooling
+wi_evap,0.00962,MGD per MW,S4 (9 MGD / 936 MW),0.005,0.012,water supply demand per energized MW with evaporative cooling
+ws_trigger,0.85,ratio,ASSUMPTION,0.75,0.95,water stress at which expansion is triggered
+ws_target,0.80,ratio,ASSUMPTION,0.7,0.9,stress ratio the utility sizes capacity to
+D_water,5,year,ASSUMPTION,3,8,delay for water capacity expansion to come online
+drought_start,8,year,ASSUMPTION,2,15,start of drought when drought scenario on
+drought_duration,2,year,ASSUMPTION,1,4,drought length
+drought_severity,0.30,fraction,ASSUMPTION,0.1,0.5,fraction of supply capacity lost during drought
+rev_per_MW,0.1115,$ million per MW per year,S7 derived (analysis/derive_eig.py),0.08,0.14,gross county+school tax revenue per energized MW before abatement
+county_share,0.331,fraction,S7 derived,0.25,0.4,county government share of data center tax revenue (rest schools)
+abate0,0.907,fraction,S7 derived,0,1,share of data center tax revenue abated at t=0 (EIG phase-in)
+T_abate,16.1,year,S7 derived,10,20,time for abatement to fade linearly to zero
+svc_cost_per_MW,0.005,$ million per MW per year,ASSUMPTION (S7 implies 0.00085),0.00085,0.02,county+school service cost per energized MW
+percap_cost,2500,$ per resident per year,ASSUMPTION,1500,4000,incremental local public cost per added resident
+relief_share,0.2,fraction,ASSUMPTION,0,0.5,share of net data center tax revenue returned as property tax relief
+levy_base,171,$ million per year,ASSUMPTION (19.0 mills x digest S16/S17),130,220,baseline county+school M&O levy; digest not found (assumed $9B)
+jobs_per_MW,0.2778,jobs per MW,S7 (270 jobs / 972 MW),0.15,0.5,direct operations jobs per energized MW
+job_multiplier,1.5,ratio,ASSUMPTION,0.5,3.0,indirect and induced jobs per direct job
+newhh_per_job,0.278,households per job,S7 (75 / 270),0.15,0.6,share of jobs filled by in-migrating households
+hou_elast,1.5,ratio,ASSUMPTION,0.5,3.0,elasticity of housing cost to population
+k_prox,0.02,per GW,ASSUMPTION,0,0.10,housing cost premium per GW of energized capacity (land and construction pressure)
+s_hm,1.0,ratio,ASSUMPTION,0,3.0,sensitivity of in-migration to housing cost excess
+d_open0,0.6666666667,ratio,derived from O0 (O0/(1-O0)),0.25,1.5,opposition driver at baseline
+a_c,1.0,per GW,ASSUMPTION,0.2,1.0,opposition driver per GW of load under construction
+a_w,2.0,per unit stress,ASSUMPTION,1,4,opposition driver per unit of water stress above ws_opp
+a_e,1.0,per 0.1 rate index excess,ASSUMPTION,0.5,3,opposition driver per 0.1 of electricity rate index excess
+a_h,2.0,per unit housing excess,ASSUMPTION,1,4,opposition driver per unit of housing cost excess
+a_r,1.5,per unit relief,ASSUMPTION,1,6,opposition reduction per unit of relief index
+ws_opp,0.80,ratio,ASSUMPTION,0.6,0.9,water stress below which no opposition effect
+tau_O,2,year,ASSUMPTION,1,4,opposition adjustment time
+s_perm,1.2,ratio,ASSUMPTION,0.5,1.5,sensitivity of permitting speed to opposition
+m_max,1.25,ratio,ASSUMPTION,1.0,1.5,maximum speed-up of permitting when opposition falls
+house_cost_base,16000,$ per household per year,ASSUMPTION,10000,20000,annual household housing cost used to value housing index change
+shortage_cost,1500,$ per household per year per unit excess stress,ASSUMPTION,500,3000,welfare penalty per unit of water stress above 1
+ql_cost,1500,$ per household per year per GW per unit opposition,ASSUMPTION (value judgement; not obtainable from public data),0,3000,quality-of-life (noise land use rural character) cost borne per household scaled by opposition and campus size

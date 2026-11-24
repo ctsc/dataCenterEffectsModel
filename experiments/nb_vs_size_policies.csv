@@ -1,0 +1,428 @@
+policy,size,cum_nb
+base policy,0,3.5321394377914072e-09
+base policy,100,325.8926131939661
+base policy,200,644.7329143181341
+base policy,300,957.6804227743459
+base policy,400,1265.7704262547265
+base policy,500,1569.928361466331
+base policy,600,1870.9942718893142
+base policy,700,2169.722804703695
+base policy,800,2466.8181593205263
+base policy,900,2762.8682224821328
+base policy,1000,3058.483789757449
+base policy,1100,3354.208999066413
+base policy,1200,3650.426753903924
+base policy,1300,3947.6832468431103
+base policy,1400,4246.412125147776
+base policy,1500,4546.793413327104
+base policy,1600,4849.369406139967
+base policy,1700,5154.501085602949
+base policy,1800,5462.200319601165
+base policy,1900,5772.967911628882
+base policy,2000,6087.144515948833
+base policy,2100,6404.712923837943
+base policy,2200,6725.921319262688
+base policy,2300,7051.219761496886
+base policy,2400,7380.730058797961
+base policy,2500,7714.13905391641
+base policy,2600,8052.185410954355
+base policy,2700,8395.084829571746
+base policy,2800,8742.330702473459
+base policy,2900,9094.397742649335
+base policy,3000,9451.747829915585
+base policy,3100,9814.26522318936
+base policy,3200,10181.354307315853
+base policy,3300,10554.097921734945
+base policy,3400,10932.702684970849
+base policy,3500,11315.895554310797
+base policy,3600,11704.80623444436
+base policy,3700,12099.93705704221
+base policy,3800,12500.378857400938
+base policy,3900,12906.129082888456
+base policy,4000,13318.475455580436
+base policy,4100,13736.83492803862
+base policy,4200,14160.063729417521
+base policy,4300,14590.316081060035
+base policy,4400,15027.114330085436
+base policy,4500,15468.497132024013
+base policy,4600,15917.42062017419
+base policy,4700,16372.523679474269
+base policy,4800,16800.45123079577
+base policy,4900,17176.62435769161
+base policy,5000,17505.224945641832
+base policy,5100,17795.295519350726
+base policy,5200,18057.119493033304
+base policy,5300,18300.66394882251
+base policy,5400,18530.98697344423
+base policy,5500,18749.837764677985
+base policy,5600,18950.165585221454
+base policy,5700,19140.67029376988
+base policy,5800,19317.263580395516
+base policy,5900,19480.120344410123
+base policy,6000,19633.150664826975
+evaporative,0,3.5321394377914072e-09
+evaporative,100,325.8926131939661
+evaporative,200,644.7329143181341
+evaporative,300,957.1862030494304
+evaporative,400,1215.554475915067
+evaporative,500,1386.631961621993
+evaporative,600,1564.3571238622437
+evaporative,700,1719.4977277756952
+evaporative,800,1843.3861024096987
+evaporative,900,1919.4622630820484
+evaporative,1000,1883.4989729453919
+evaporative,1100,1757.0439002838514
+evaporative,1200,1562.3567788349235
+evaporative,1300,1317.492051565359
+evaporative,1400,542.4273070971298
+evaporative,1500,-395.49606406671836
+evaporative,1600,-1381.2755022801437
+evaporative,1700,-2391.8942335520032
+evaporative,1800,-3444.4828954602017
+evaporative,1900,-4524.512421086014
+evaporative,2000,-5640.156816105863
+evaporative,2100,-6761.7134610968615
+evaporative,2200,-7900.597273486181
+evaporative,2300,-9053.442545706232
+evaporative,2400,-10232.088367593391
+evaporative,2500,-11405.308211569474
+evaporative,2600,-12587.077927405026
+evaporative,2700,-13788.444102971353
+evaporative,2800,-14979.851648648
+evaporative,2900,-16187.440735688948
+evaporative,3000,-17382.053525724423
+evaporative,3100,-18590.993285884488
+evaporative,3200,-19796.92875455053
+evaporative,3300,-20986.43077851153
+evaporative,3400,-22184.80708785998
+evaporative,3500,-23364.012611710314
+evaporative,3600,-24549.01727643759
+evaporative,3700,-25727.669504051955
+evaporative,3800,-26881.648437111544
+evaporative,3900,-28039.523720397003
+evaporative,4000,-29184.55532329659
+evaporative,4100,-30319.3486677154
+evaporative,4200,-31425.229423574077
+evaporative,4300,-32527.971150104335
+evaporative,4400,-33617.487473572466
+evaporative,4500,-34688.858661262246
+evaporative,4600,-35730.30836836339
+evaporative,4700,-36764.63227327357
+evaporative,4800,-37778.3556730078
+evaporative,4900,-38771.557667436115
+evaporative,5000,-39734.83202622987
+evaporative,5100,-40684.39853611258
+evaporative,5200,-41608.53695445535
+evaporative,5300,-42509.1509974594
+evaporative,5400,-43385.46866012552
+evaporative,5500,-44235.77491821287
+evaporative,5600,-45052.78893756251
+evaporative,5700,-45850.49284826752
+evaporative,5800,-46621.58730119441
+evaporative,5900,-47367.00922891242
+evaporative,6000,-48088.303036402074
+evaporative + drought,0,3.5321394377914072e-09
+evaporative + drought,100,308.1503349981348
+evaporative + drought,200,591.5212162174522
+evaporative + drought,300,808.571221713616
+evaporative + drought,400,832.3877409896673
+evaporative + drought,500,760.2098047467842
+evaporative + drought,600,721.8306756918441
+evaporative + drought,700,716.596207991766
+evaporative + drought,800,709.2665215809702
+evaporative + drought,900,660.3581169895822
+evaporative + drought,1000,507.7996269440607
+evaporative + drought,1100,271.11502515205785
+evaporative + drought,1200,-43.192244192558064
+evaporative + drought,1300,-415.7099193893514
+evaporative + drought,1400,-1267.316882359962
+evaporative + drought,1500,-2258.1763918096076
+evaporative + drought,1600,-3295.4499280044906
+evaporative + drought,1700,-4355.488433700271
+evaporative + drought,1800,-5456.478172597948
+evaporative + drought,1900,-6583.37142774766
+evaporative + drought,2000,-7744.773836473261
+evaporative + drought,2100,-8909.88884352104
+evaporative + drought,2200,-10090.666840618826
+evaporative + drought,2300,-11283.73347765797
+evaporative + drought,2400,-12501.366866478113
+evaporative + drought,2500,-13711.288989289591
+evaporative + drought,2600,-14928.059617763402
+evaporative + drought,2700,-16162.953999057783
+evaporative + drought,2800,-17385.725615169213
+evaporative + drought,2900,-18623.77972777336
+evaporative + drought,3000,-19847.500940697406
+evaporative + drought,3100,-21085.04595396448
+evaporative + drought,3200,-22318.03257673662
+evaporative + drought,3300,-23532.121913112882
+evaporative + drought,3400,-24753.881778275947
+evaporative + drought,3500,-25952.782190057
+evaporative + drought,3600,-27153.632548980673
+evaporative + drought,3700,-28340.873675521194
+evaporative + drought,3800,-29494.892901723597
+evaporative + drought,3900,-30645.197672183665
+evaporative + drought,4000,-31775.977894368327
+evaporative + drought,4100,-32890.393941059134
+evaporative + drought,4200,-33971.06831314908
+evaporative + drought,4300,-35043.1260451084
+evaporative + drought,4400,-36097.413745731115
+evaporative + drought,4500,-37129.94316388655
+evaporative + drought,4600,-38130.12934144126
+evaporative + drought,4700,-39119.37637436336
+evaporative + drought,4800,-40085.45003445896
+evaporative + drought,4900,-41028.895850826666
+evaporative + drought,5000,-41941.80364863076
+evaporative + drought,5100,-42838.554904276476
+evaporative + drought,5200,-43708.77370380066
+evaporative + drought,5300,-44555.0726427675
+evaporative + drought,5400,-45377.71456957379
+evaporative + drought,5500,-46175.767663923885
+evaporative + drought,5600,-46943.57703845624
+evaporative + drought,5700,-47695.516836223556
+evaporative + drought,5800,-48425.99353490936
+evaporative + drought,5900,-49138.008649058705
+evaporative + drought,6000,-49835.07433467867
+ratepayers pay,0,3.5321394377914072e-09
+ratepayers pay,100,277.70581349040134
+ratepayers pay,200,529.6216556168564
+ratepayers pay,300,757.4749881078692
+ratepayers pay,400,962.8279719284482
+ratepayers pay,500,1147.0271981314459
+ratepayers pay,600,1311.2972845057925
+ratepayers pay,700,1456.7703772109962
+ratepayers pay,800,1584.422009056997
+ratepayers pay,900,1695.148645525816
+ratepayers pay,1000,1789.779787251211
+ratepayers pay,1100,1869.0752668541706
+ratepayers pay,1200,1933.6959339811626
+ratepayers pay,1300,1984.2711617819798
+ratepayers pay,1400,2021.379089907891
+ratepayers pay,1500,2045.5391495424237
+ratepayers pay,1600,2057.2319400994047
+ratepayers pay,1700,2056.906762751423
+ratepayers pay,1800,2044.977764524839
+ratepayers pay,1900,2021.8218636357046
+ratepayers pay,2000,1987.746243600389
+ratepayers pay,2100,1943.103794499492
+ratepayers pay,2200,1888.193387112025
+ratepayers pay,2300,1823.2906013452794
+ratepayers pay,2400,1748.6494959818358
+ratepayers pay,2500,1664.5042625986955
+ratepayers pay,2600,1571.0171920932883
+ratepayers pay,2700,1468.388377996433
+ratepayers pay,2800,1356.8359633371792
+ratepayers pay,2900,1236.5291991157603
+ratepayers pay,3000,1107.624306753377
+ratepayers pay,3100,970.2656327681789
+ratepayers pay,3200,824.5867480945427
+ratepayers pay,3300,670.7114949361094
+ratepayers pay,3400,508.7549835121204
+ratepayers pay,3500,338.7597223580594
+ratepayers pay,3600,160.7953670994455
+ratepayers pay,3700,-24.968837438223716
+ratepayers pay,3800,-218.4451685753674
+ratepayers pay,3900,-419.55050879838234
+ratepayers pay,4000,-628.2056084384662
+ratepayers pay,4100,-844.3343866160574
+ratepayers pay,4200,-1067.8632698924016
+ratepayers pay,4300,-1298.7205681546664
+ratepayers pay,4400,-1536.8358873616066
+ratepayers pay,4500,-1782.1782506762388
+ratepayers pay,4600,-2034.9022028324648
+ratepayers pay,4700,-2294.713759235726
+ratepayers pay,4800,-2561.5450999153486
+ratepayers pay,4900,-2835.3272912167886
+ratepayers pay,5000,-3115.9898840191113
+ratepayers pay,5100,-3403.4605465997256
+ratepayers pay,5200,-3697.6647325961176
+ratepayers pay,5300,-3998.5253846108844
+ratepayers pay,5400,-4306.343580962227
+ratepayers pay,5500,-4620.8418198266245
+ratepayers pay,5600,-4941.804960210979
+ratepayers pay,5700,-5269.145206427052
+ratepayers pay,5800,-5602.770992248289
+ratepayers pay,5900,-5942.586865281944
+ratepayers pay,6000,-6288.496013651136
+ratepayers pay + evaporative,0,3.5321394377914072e-09
+ratepayers pay + evaporative,100,277.70581349040134
+ratepayers pay + evaporative,200,529.6216556168564
+ratepayers pay + evaporative,300,757.0064280370061
+ratepayers pay + evaporative,400,916.0190208278669
+ratepayers pay + evaporative,500,979.0197308382421
+ratepayers pay + evaporative,600,1034.8090401980699
+ratepayers pay + evaporative,700,1056.8032475238651
+ratepayers pay + evaporative,800,1038.2464120129073
+ratepayers pay + evaporative,900,966.5524899197939
+ratepayers pay + evaporative,1000,789.3514346557353
+ratepayers pay + evaporative,1100,528.4124610807189
+ratepayers pay + evaporative,1200,204.65634821589202
+ratepayers pay + evaporative,1300,-165.10307929448857
+ratepayers pay + evaporative,1400,-1066.8531279524843
+ratepayers pay + evaporative,1500,-2106.71262457522
+ratepayers pay + evaporative,1600,-3199.5307697351914
+ratepayers pay + evaporative,1700,-4324.8724985547815
+ratepayers pay + evaporative,1800,-5465.508726576923
+ratepayers pay + evaporative,1900,-6639.906855163245
+ratepayers pay + evaporative,2000,-7844.801371617332
+ratepayers pay + evaporative,2100,-9052.47824168135
+ratepayers pay + evaporative,2200,-10272.491669718438
+ratepayers pay + evaporative,2300,-11503.096171358522
+ratepayers pay + evaporative,2400,-12752.75963857863
+ratepayers pay + evaporative,2500,-13994.269564906495
+ratepayers pay + evaporative,2600,-15239.280041454516
+ratepayers pay + evaporative,2700,-16497.518385588115
+ratepayers pay + evaporative,2800,-17741.11516241799
+ratepayers pay + evaporative,2900,-18994.03012531196
+ratepayers pay + evaporative,3000,-20230.841300981534
+ratepayers pay + evaporative,3100,-21472.81310788583
+ratepayers pay + evaporative,3200,-22705.772796466295
+ratepayers pay + evaporative,3300,-23917.250818700417
+ratepayers pay + evaporative,3400,-25128.581704258497
+ratepayers pay + evaporative,3500,-26314.98641944715
+ratepayers pay + evaporative,3600,-27496.357918495756
+ratepayers pay + evaporative,3700,-28663.05859955674
+ratepayers pay + evaporative,3800,-29797.47753343191
+ratepayers pay + evaporative,3900,-30924.00104611095
+ratepayers pay + evaporative,4000,-32026.94041348184
+ratepayers pay + evaporative,4100,-33107.78069900701
+ratepayers pay + evaporative,4200,-34151.61548601187
+ratepayers pay + evaporative,4300,-35176.88840488397
+ratepayers pay + evaporative,4400,-36174.99082258803
+ratepayers pay + evaporative,4500,-37141.81884727483
+ratepayers pay + evaporative,4600,-38067.98580952819
+ratepayers pay + evaporative,4700,-38968.49461664465
+ratepayers pay + evaporative,4800,-39833.54630378383
+ratepayers pay + evaporative,4900,-40663.4459625406
+ratepayers pay + evaporative,5000,-41454.18186315605
+ratepayers pay + evaporative,5100,-42217.769999331045
+ratepayers pay + evaporative,5200,-42951.19279791394
+ratepayers pay + evaporative,5300,-43664.993028674406
+ratepayers pay + evaporative,5400,-44368.20197380667
+ratepayers pay + evaporative,5500,-45063.99111483312
+ratepayers pay + evaporative,5600,-45747.79847376765
+ratepayers pay + evaporative,5700,-46429.32984293476
+ratepayers pay + evaporative,5800,-47103.371890127455
+ratepayers pay + evaporative,5900,-47770.33502468617
+ratepayers pay + evaporative,6000,-48430.45344822937
+"worst (evap, ratepayer, 100% abatement, drought)",0,3.5321394377914072e-09
+"worst (evap, ratepayer, 100% abatement, drought)",100,199.87373015310482
+"worst (evap, ratepayer, 100% abatement, drought)",200,357.2417524940217
+"worst (evap, ratepayer, 100% abatement, drought)",300,431.92222273185837
+"worst (evap, ratepayer, 100% abatement, drought)",400,301.1334556770154
+"worst (evap, ratepayer, 100% abatement, drought)",500,67.86780602881895
+"worst (evap, ratepayer, 100% abatement, drought)",600,-146.4839483417034
+"worst (evap, ratepayer, 100% abatement, drought)",700,-338.6841540606808
+"worst (evap, ratepayer, 100% abatement, drought)",800,-541.5574171111427
+"worst (evap, ratepayer, 100% abatement, drought)",900,-790.8642890281883
+"worst (evap, ratepayer, 100% abatement, drought)",1000,-1136.559260300646
+"worst (evap, ratepayer, 100% abatement, drought)",1100,-1558.4781387561031
+"worst (evap, ratepayer, 100% abatement, drought)",1200,-2051.7309078302997
+"worst (evap, ratepayer, 100% abatement, drought)",1300,-2598.1360183678953
+"worst (evap, ratepayer, 100% abatement, drought)",1400,-3629.0123816455575
+"worst (evap, ratepayer, 100% abatement, drought)",1500,-4770.04936750662
+"worst (evap, ratepayer, 100% abatement, drought)",1600,-5962.777867373766
+"worst (evap, ratepayer, 100% abatement, drought)",1700,-7185.948749306368
+"worst (evap, ratepayer, 100% abatement, drought)",1800,-8421.72762865407
+"worst (evap, ratepayer, 100% abatement, drought)",1900,-9689.586857744483
+"worst (evap, ratepayer, 100% abatement, drought)",2000,-10986.287219897342
+"worst (evap, ratepayer, 100% abatement, drought)",2100,-12282.878094332758
+"worst (evap, ratepayer, 100% abatement, drought)",2200,-13589.361957867153
+"worst (evap, ratepayer, 100% abatement, drought)",2300,-14903.557262325252
+"worst (evap, ratepayer, 100% abatement, drought)",2400,-16235.201628018822
+"worst (evap, ratepayer, 100% abatement, drought)",2500,-17555.56364333292
+"worst (evap, ratepayer, 100% abatement, drought)",2600,-18876.774223364646
+"worst (evap, ratepayer, 100% abatement, drought)",2700,-20209.489925903174
+"worst (evap, ratepayer, 100% abatement, drought)",2800,-21525.666315988216
+"worst (evap, ratepayer, 100% abatement, drought)",2900,-22848.34050064189
+"worst (evap, ratepayer, 100% abatement, drought)",3000,-24151.21220789774
+"worst (evap, ratepayer, 100% abatement, drought)",3100,-25455.1945830639
+"worst (evap, ratepayer, 100% abatement, drought)",3200,-26744.182556300057
+"worst (evap, ratepayer, 100% abatement, drought)",3300,-28002.298145511028
+"worst (evap, ratepayer, 100% abatement, drought)",3400,-29248.219169299347
+"worst (evap, ratepayer, 100% abatement, drought)",3500,-30459.508496892475
+"worst (evap, ratepayer, 100% abatement, drought)",3600,-31655.232253387087
+"worst (evap, ratepayer, 100% abatement, drought)",3700,-32827.67710837031
+"worst (evap, ratepayer, 100% abatement, drought)",3800,-33961.24198316019
+"worst (evap, ratepayer, 100% abatement, drought)",3900,-35078.7898612623
+"worst (evap, ratepayer, 100% abatement, drought)",4000,-36166.805084029605
+"worst (evap, ratepayer, 100% abatement, drought)",4100,-37227.6536629268
+"worst (evap, ratepayer, 100% abatement, drought)",4200,-38248.1620413146
+"worst (evap, ratepayer, 100% abatement, drought)",4300,-39245.31983161824
+"worst (evap, ratepayer, 100% abatement, drought)",4400,-40212.537585202655
+"worst (evap, ratepayer, 100% abatement, drought)",4500,-41146.76062241895
+"worst (evap, ratepayer, 100% abatement, drought)",4600,-42041.1238470641
+"worst (evap, ratepayer, 100% abatement, drought)",4700,-42909.36303465112
+"worst (evap, ratepayer, 100% abatement, drought)",4800,-43745.921139705024
+"worst (evap, ratepayer, 100% abatement, drought)",4900,-44553.96107736338
+"worst (evap, ratepayer, 100% abatement, drought)",5000,-45333.693109162814
+"worst (evap, ratepayer, 100% abatement, drought)",5100,-46100.03387513151
+"worst (evap, ratepayer, 100% abatement, drought)",5200,-46853.08740588677
+"worst (evap, ratepayer, 100% abatement, drought)",5300,-47598.73245440976
+"worst (evap, ratepayer, 100% abatement, drought)",5400,-48337.145005271355
+"worst (evap, ratepayer, 100% abatement, drought)",5500,-49067.885037291344
+"worst (evap, ratepayer, 100% abatement, drought)",5600,-49786.06576827701
+"worst (evap, ratepayer, 100% abatement, drought)",5700,-50501.846663896176
+"worst (evap, ratepayer, 100% abatement, drought)",5800,-51209.76265472464
+"worst (evap, ratepayer, 100% abatement, drought)",5900,-51910.27054978005
+"worst (evap, ratepayer, 100% abatement, drought)",6000,-52603.63044511809
+worst without drought,0,3.5321394377914072e-09
+worst without drought,100,217.32211390231964
+worst without drought,200,408.76129622554487
+worst without drought,300,575.6252923316947
+worst without drought,400,674.1540296787409
+worst without drought,500,676.9041918122986
+worst without drought,600,672.7429296232837
+worst without drought,700,635.0947988370158
+worst without drought,800,557.2667247993071
+worst without drought,900,426.6838411592154
+worst without drought,1000,191.07684649247926
+worst without drought,1100,-127.60676338442357
+worst without drought,1200,-508.4565760867955
+worst without drought,1300,-934.6789468848729
+worst without drought,1400,-1891.9706268438688
+worst without drought,1500,-2986.6266411771435
+worst without drought,1600,-4133.531205161205
+worst without drought,1700,-5312.260843276752
+worst without drought,1800,-6505.669087651771
+worst without drought,1900,-7731.996052736678
+worst without drought,2000,-8988.075022589523
+worst without drought,2100,-10246.268359538977
+worst without drought,2200,-11515.95450245329
+worst without drought,2300,-12795.022457031537
+worst without drought,2400,-14092.71241382636
+worst without drought,2500,-15381.37883869522
+worst without drought,2600,-16672.42473576516
+worst without drought,2700,-17975.466203916876
+worst without drought,2800,-19263.758915691444
+worst without drought,2900,-20559.59315799625
+worst without drought,3000,-21838.45857939118
+worst without drought,3100,-23121.34435508162
+worst without drought,3200,-24394.21303616847
+worst without drought,3300,-25644.486501162315
+worst without drought,3400,-26892.76050919476
+worst without drought,3500,-28116.11085783899
+worst without drought,3600,-29332.004282329643
+worst without drought,3700,-30532.354710054613
+worst without drought,3800,-31699.553343058633
+worst without drought,3900,-32857.151094591376
+worst without drought,4000,-33990.22122756506
+worst without drought,4100,-35099.66849351384
+worst without drought,4200,-36171.47017296179
+worst without drought,4300,-37223.291531565286
+worst without drought,4400,-38246.896183182835
+worst without drought,4500,-39238.316069038825
+worst without drought,4600,-40188.88112630368
+worst without drought,4700,-41112.626576093564
+worst without drought,4800,-42000.546634624225
+worst without drought,4900,-42853.12722818771
+worst without drought,5000,-43667.24017021016
+worst without drought,5100,-44454.62983934855
+worst without drought,5200,-45213.30373479751
+worst without drought,5300,-45954.24777218433
+worst without drought,5400,-46685.83813426489
+worst without drought,5500,-47409.84715898602
+worst without drought,5600,-48121.94099011431
+worst without drought,5700,-48831.2894019224
+worst without drought,5800,-49532.89615425019
+worst without drought,5900,-50227.18370471692
+worst without drought,6000,-50914.431932383726
